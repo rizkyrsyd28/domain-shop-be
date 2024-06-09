@@ -1,0 +1,12 @@
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches the root directories of TypeScript projects
+[*.ts]
+# Use 2 spaces for TypeScript files
+indent_size = 4
